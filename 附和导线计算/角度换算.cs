@@ -20,13 +20,13 @@ private double RadToDms(double rad)
             result = d + m / 100 + s / 10000;
             return result;
         }
-  //«Û¡Ωµ„µƒ∑ΩŒ™Ω«
+  //Ê±Ç‰∏§ÁÇπÁöÑÊñπ‰∏∫Ëßí
         public double azimuth(double x1, double y1, double x2, double y2)
         {
             double a;
             double dx = x2 - x1;
             double dy = y2 - y1;
-            if (dx == 0)//∂´Œ˜∑ΩœÚ
+            if (dx == 0)//‰∏úË•øÊñπÂêë
             {
                 if (dy >= 0)
                 {
@@ -37,7 +37,7 @@ private double RadToDms(double rad)
                     a = Math.PI * 3 / 2;
                 }
             }
-            else if (dy == 0)//ƒœ±±∑ΩœÚ
+            else if (dy == 0)//ÂçóÂåóÊñπÂêë
             {
                 if (dx >= 0)
                 {
@@ -48,14 +48,14 @@ private double RadToDms(double rad)
                     a = Math.PI;
                 }
             }
-            else//»Œ“‚∑ΩœÚ
+            else//‰ªªÊÑèÊñπÂêë
             {
                 a = Math.Atan(dy / dx);
-                if (dx <= 0)//∂˛°¢»˝œÛœﬁ
+                if (dx <= 0)//‰∫å„ÄÅ‰∏âË±°Èôê
                 {
                     a = a + Math.PI;
                 }
-                else if (dy <= 0)//µ⁄ÀƒœÛœﬁ
+                else if (dy <= 0)//Á¨¨ÂõõË±°Èôê
                 {
                     a = a + 2 * Math.PI;
                 }               
