@@ -1,0 +1,2 @@
+Auxiliary wire calculation
+
