@@ -2,7 +2,7 @@
         {
             list.Clear();//防止重复读取
             //读取文件
-            //string path = "C:\Folder doc\seu课程\测绘软件设计\附和导线数据.txt";
+            //string path = "......\附和导线数据.txt";
             string path = Application.StartupPath + "\\附合导线数据.txt";
             StreamReader sr = new StreamReader(path);  //system.io
 
