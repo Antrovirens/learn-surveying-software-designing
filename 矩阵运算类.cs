@@ -249,9 +249,8 @@ class CMat
 
             int m = n.GetLength(0);
             double[,] q = new double[m, m]; //法方程系数逆矩阵;
-            double u;   //临时变量
+            double u, temp;  //临时变量
             int i, j, k;
-            double max, temp;
 
             //初始单位阵
             for (i = 0; i < m; i++)
