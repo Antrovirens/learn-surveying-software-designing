@@ -243,51 +243,86 @@ class CMat
         }
 
         //求逆函数
-        public double[,] MatInver(double[,] n) //求逆函数
+       public double[,] MatInver(double[,] n) //矩阵求逆函数  组员法改进  
         {
+            //前提判断： 是否为方形矩阵  是否满足可逆条件
+
             int m = n.GetLength(0);
             double[,] q = new double[m, m]; //法方程系数逆矩阵;
-            double u;
+            double u;   //临时变量
             int i, j, k;
-            //置零
-            for (i = 0; i <= m - 1; i++)
-            {
+            double max, temp;
+
+            //初始单位阵
+            for (i = 0; i < m; i++)
                 for (j = 0; j <= m - 1; j++)
-                {
-                    if (i == j)
-                    {
-                        q[i, j] = 1;
-                    }
-                    else
-                    {
-                        q[i, j] = 0;
-                    }
-                }
-            }
+                    q[i, j] = (i == j) ? 1 : 0;
+
+
             // 求左下
             for (i = 0; i <= m - 2; i++)
-            {
-                //提取各行的主对角线元素
-                u = n[i, i];
-                for (j = 0; j <= m - 1; j++)//使i行的主对角线元素为1
+            {            
+
+                //提取该行的主对角线元素
+                u = n[i, i];   //可能为0
+
+                if (u == 0)
                 {
-                    n[i, j] = n[i, j] / u;
-                    q[i, j] = q[i, j] / u;
-                }
-                for (k = i + 1; k <= m - 1; k++)
-                {
-                    u = n[k, i];
-                    for (j = 0; j <= m - 1; j++)
+                    for (i = 0; i < m; i++)
                     {
-                        n[k, j] = n[k, j] - u * n[i, j];
-                        q[k, j] = q[k, j] - u * q[i, j];
+                        k = i;
+                        for (j = i + 1; j < m; j++)
+                        {
+                            if (n[j, i] != 0)
+                            {
+                                k = j;
+                                break;
+                            }
+                        }
+
+                        if (k != i)
+                        {
+                            for (j = 0; j < m; j++)
+                            {
+                                temp = n[i, j];
+                                n[i, j] = n[k, j];
+                                n[k, j] = temp;
+                                //伴随交换
+                                temp = q[i, j];
+                                q[i, j] = q[k, j];
+                                q[k, j] = temp;
+                            }
+                        }
+                        else
+                            MessageBox.Show("不可逆矩阵", "ERROR", MessageBoxButtons.OK);
+
+                    }
+                }
+
+                for (j = 0; j < m; j++)//该行除以主对角线元素的值 使主对角线元素为1  
+                {
+                    n[i, j] = n[i, j] / u;   //分母不为0
+                    q[i, j] = q[i, j] / u;  //伴随矩阵
+                }
+
+                for (k = i + 1; k < m; k++)  //下方的每一行减去  该行的倍数
+                {
+                    u = n[k, i];   //下方的某一行的主对角线元素
+                    for (j = 0; j < m ; j++)
+                    {
+                        n[k, j] = n[k, j] - u * n[i, j];  //下方的每一行减去该行的倍数  使左下角矩阵化为0
+                        q[k, j] = q[k, j] - u * q[i, j];  //左下伴随矩阵
                     }
                 }
             }
 
-            u = n[m - 1, m - 1];
+
+            u = n[m - 1, m - 1];  //最后一行最后一个元素
+
+            if (u == 0)
+                MessageBox.Show("不可逆矩阵", "ERROR", MessageBoxButtons.OK);
             n[m - 1, m - 1] = 1;
-            for (j = 0; j <= m - 1; j++)
+            for (j = 0; j < m; j++)
             {
                 q[m - 1, j] = q[m - 1, j] / u;
             }
@@ -298,13 +333,12 @@ class CMat
                 for (k = i - 1; k >= 0; k--)
                 {
                     u = n[k, i];
-                    for (j = 0; j <= m - 1; j++)
+                    for (j = 0; j < m; j++)
                     {
                         n[k, j] = n[k, j] - u * n[i, j];
                         q[k, j] = q[k, j] - u * q[i, j];
                     }
                 }
-
             }
             return q;
         }
