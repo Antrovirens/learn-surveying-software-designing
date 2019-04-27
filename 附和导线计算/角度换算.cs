@@ -1,24 +1,49 @@
- private double DmsToRad(double dms)
+        private double DmsToRad(double dms)
         {
-            double result = 0;
+            //判断正负
+            bool flag = true;
+            if (dms < 0)
+            {
+                dms *= -1;
+                flag = !flag;
+            }
+
+            dms += 0.00000001;    //加上一个很小的数字0.000001s
             double d = Math.Floor(dms);
+
             double t = (dms - d) * 100;
             double m = Math.Floor(t);
-            double s = (t - m) * 100;
-            result = (d + m / 60 + s / 3600) * Math.PI / 180;
-            return result;
-        }
 
-private double RadToDms(double rad)
+            double s = (t - m) * 100 - 0.0001;  //消去加上的数字的影响
+
+            double result = (d + m / 60 + s / 3600) * Math.PI / 180;
+
+            if (flag)
+                return result;
+            else
+                return -result;
+
+        }
+        private double RadToDms(double rad)
         {
-            double result = 0;
+            bool flag = true;
+            if (rad < 0)
+            {
+                rad *= -1;
+                flag = !flag;
+            }
+
             double deg = 180 * rad / Math.PI;
-            double d = Math.Floor(deg);
+            double d = Math.Floor(deg);  //取整数 deg
             double t = (deg - d) * 60;
-            double m = Math.Floor(t);
-            double s = (t - m) * 60;
-            result = d + m / 100 + s / 10000;
-            return result;
+            double m = Math.Floor(t);    //min
+            double s = (t - m) * 60;  //sec
+            double result = d + m / 100 + s / 10000;
+
+            if (flag)
+                return result;
+            else
+                return -result;
         }
   //求两点的方为角
         public double azimuth(double x1, double y1, double x2, double y2)
