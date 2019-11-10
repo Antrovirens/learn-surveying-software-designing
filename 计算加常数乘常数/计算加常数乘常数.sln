@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "计算加常数乘常数", "计算加常数乘常数.csproj", "{4B343BD3-8141-4C6F-B281-91D36900BACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B343BD3-8141-4C6F-B281-91D36900BACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B343BD3-8141-4C6F-B281-91D36900BACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B343BD3-8141-4C6F-B281-91D36900BACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B343BD3-8141-4C6F-B281-91D36900BACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A755A606-C457-4008-A987-3FBAD72E84CD}
+	EndGlobalSection
+EndGlobal

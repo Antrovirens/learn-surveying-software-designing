@@ -1,0 +1,9 @@
+C:\GitHub\learn-surveying-software-designing\计算加常数乘常数\bin\Debug\计算加常数乘常数.exe.config
+C:\GitHub\learn-surveying-software-designing\计算加常数乘常数\bin\Debug\计算加常数乘常数.exe
+C:\GitHub\learn-surveying-software-designing\计算加常数乘常数\bin\Debug\计算加常数乘常数.pdb
+C:\GitHub\learn-surveying-software-designing\计算加常数乘常数\obj\Debug\计算加常数乘常数.csprojAssemblyReference.cache
+C:\GitHub\learn-surveying-software-designing\计算加常数乘常数\obj\Debug\计算加常数乘常数.MainForm.resources
+C:\GitHub\learn-surveying-software-designing\计算加常数乘常数\obj\Debug\计算加常数乘常数.Properties.Resources.resources
+C:\GitHub\learn-surveying-software-designing\计算加常数乘常数\obj\Debug\计算加常数乘常数.csproj.GenerateResource.cache
+C:\GitHub\learn-surveying-software-designing\计算加常数乘常数\obj\Debug\计算加常数乘常数.exe
+C:\GitHub\learn-surveying-software-designing\计算加常数乘常数\obj\Debug\计算加常数乘常数.pdb
