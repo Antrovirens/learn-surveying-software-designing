@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
 <!-- eric6 tasks file for project CoordinateConversion -->
-<!-- Saved: 2019-12-09, 14:09:20 -->
+<!-- Saved: 2019-12-18, 18:33:22 -->
 <Tasks version="6.0">
   <ProjectScanFilter></ProjectScanFilter>
-  <Task priority="1" completed="False" type="1" uid="{1fec9234-eccd-4469-80bd-6c6b5fd7688d}">
+  <Task priority="1" completed="False" type="1" uid="{b4e1d6e3-e95d-4240-a7f1-e6cfd6d96722}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2019-12-09, 12:01:51</Created>
+    <Created>2019-12-18, 18:03:26</Created>
     <Resource>
       <Filename>mainForm.py</Filename>
       <Linenumber>34</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{a8d0d80e-7ba8-4bab-91a6-80d966e2e528}">
+  <Task priority="1" completed="False" type="1" uid="{92e0d9a6-079d-4946-baf6-b159fe2f7e9c}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2019-12-09, 12:01:51</Created>
+    <Created>2019-12-18, 18:03:26</Created>
     <Resource>
       <Filename>mainForm.py</Filename>
       <Linenumber>42</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{5a1a7142-0c28-4b20-88a1-a6b3fc15a077}">
+  <Task priority="1" completed="False" type="1" uid="{75d59926-2dc5-4279-a33f-613a6388c2ab}">
     <Summary>TODO: 打开文件并显示</Summary>
     <Description></Description>
-    <Created>2019-12-09, 12:01:51</Created>
+    <Created>2019-12-18, 18:03:26</Created>
     <Resource>
       <Filename>mainForm.py</Filename>
       <Linenumber>50</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{2b175da5-a97e-4d3c-a0c7-fb118eaf3284}">
+  <Task priority="1" completed="False" type="1" uid="{50fb6913-2d13-40b7-8797-cfe1b8ebe6bd}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2019-12-09, 12:01:51</Created>
+    <Created>2019-12-18, 18:03:26</Created>
     <Resource>
       <Filename>mainForm.py</Filename>
       <Linenumber>62</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{87e2757a-64fd-4493-a72c-7998b9d77d0a}">
+  <Task priority="1" completed="False" type="1" uid="{057547d3-eb53-455e-9150-fdcab5904b8d}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2019-12-09, 12:01:51</Created>
+    <Created>2019-12-18, 18:03:26</Created>
     <Resource>
       <Filename>mainForm.py</Filename>
       <Linenumber>70</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{adf78164-473e-4d88-8930-7802eecb4fe1}">
+  <Task priority="1" completed="False" type="1" uid="{e0d2a0c3-e12d-443d-8e88-4b182d0e3d72}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2019-12-09, 12:01:51</Created>
+    <Created>2019-12-18, 18:03:26</Created>
     <Resource>
       <Filename>mainForm.py</Filename>
       <Linenumber>81</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{72294506-e4f1-4457-bcdf-d655417ce2cb}">
+  <Task priority="1" completed="False" type="1" uid="{f4400eef-3125-423e-8f9a-4b244d03d517}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2019-12-09, 12:01:51</Created>
+    <Created>2019-12-18, 18:03:26</Created>
     <Resource>
       <Filename>mainForm.py</Filename>
       <Linenumber>89</Linenumber>

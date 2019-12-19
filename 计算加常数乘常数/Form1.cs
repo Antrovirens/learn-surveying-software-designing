@@ -167,8 +167,14 @@ namespace 计算加常数乘常数
         {
             SaveToValues();
             D = Convert.ToDouble(textBox1.Text);
-            int i = 0;
-            data[i] = (values[0, i] + values[1, i] + values[2, i] + values[3, i] + values[4, i] + values[5, i]) / i;
+            data[0] = values[0, 0];
+            data[1] = (values[0, 1] + values[1, 1]) / 2;
+            data[2] = (values[0, 2] + values[1, 2] + values[2, 2]) / 3;
+            data[3] = (values[0, 3] + values[1, 3] + values[2, 3] + values[3, 3]) / 4;
+            data[4] = (values[0, 4] + values[1, 4] + values[2, 4] + values[3, 4] + values[4, 4]) / 5;
+            data[5] = (values[0, 5] + values[1, 5] + values[2, 5] + values[3, 5] + values[4, 5] + values[5, 5]) / 6;
+
+           
 
             C = (D - (data[0] + data[1] + data[2] + data[3] + data[4] + data[5])) / 5;
 

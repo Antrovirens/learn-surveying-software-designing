@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
 <!-- eric6 tasks file for project project1 -->
-<!-- Saved: 2019-12-11, 18:05:20 -->
+<!-- Saved: 2019-12-18, 14:42:45 -->
 <Tasks version="6.0">
   <ProjectScanFilter></ProjectScanFilter>
-  <Task priority="1" completed="False" type="1" uid="{99083cbe-884b-42b5-a9d8-ee2499c42190}">
+  <Task priority="1" completed="False" type="1" uid="{05135143-dd31-4c01-9243-f4edd6e00d85}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2019-12-11, 18:05:02</Created>
+    <Created>2019-12-18, 14:13:45</Created>
     <Resource>
       <Filename>MainWindow.py</Filename>
-      <Linenumber>47</Linenumber>
+      <Linenumber>46</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{7ce3c7a5-7536-4738-9069-24c97c07d75a}">
+  <Task priority="1" completed="False" type="1" uid="{acc58e05-cef5-459f-92f2-2df24660688e}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2019-12-11, 18:05:02</Created>
+    <Created>2019-12-18, 14:13:45</Created>
     <Resource>
       <Filename>MainWindow.py</Filename>
-      <Linenumber>96</Linenumber>
+      <Linenumber>95</Linenumber>
     </Resource>
   </Task>
 </Tasks>

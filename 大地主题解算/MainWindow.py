@@ -4,7 +4,6 @@
 Module implementing MainWindow.
 """
 import sys
-
 import math
 from PyQt5.QtCore import pyqtSlot
 #from PyQt5.QtWidgets import QMainWindow
