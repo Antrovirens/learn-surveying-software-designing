@@ -1,7 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
 <!-- eric6 tasks file for project 高斯投影坐标计算 -->
-<!-- Saved: 2019-12-18, 17:53:29 -->
+<!-- Saved: 2020-02-05, 18:21:10 -->
 <Tasks version="6.0">
   <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{4a82c183-b339-4eb3-9537-58ad8d47ddac}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-02-05, 14:40:46</Created>
+    <Resource>
+      <Filename>MainWindow.py</Filename>
+      <Linenumber>35</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{1dd198e6-0990-4935-a847-636f14c6a007}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-02-05, 14:40:46</Created>
+    <Resource>
+      <Filename>MainWindow.py</Filename>
+      <Linenumber>43</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{48a0d9d7-a072-4b07-99da-70f8353a5506}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-02-05, 14:40:46</Created>
+    <Resource>
+      <Filename>MainWindow.py</Filename>
+      <Linenumber>51</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{5a04373a-0c35-4007-9dbe-1573b8cd24b6}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-02-05, 14:40:46</Created>
+    <Resource>
+      <Filename>MainWindow.py</Filename>
+      <Linenumber>59</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{316b903e-83e3-486d-bf6c-c617c86054bf}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-02-05, 14:40:46</Created>
+    <Resource>
+      <Filename>MainWindow.py</Filename>
+      <Linenumber>67</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e32f7f59-8586-4ec5-a0ed-8cac5c30ca29}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-02-05, 14:40:46</Created>
+    <Resource>
+      <Filename>MainWindow.py</Filename>
+      <Linenumber>78</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{7e847b70-9bf2-46a1-860a-77fc405bb3c2}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-02-05, 14:40:46</Created>
+    <Resource>
+      <Filename>MainWindow.py</Filename>
+      <Linenumber>86</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{536a187d-0c31-473b-a52d-27c0f53e84f3}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-02-05, 14:40:46</Created>
+    <Resource>
+      <Filename>MainWindow.py</Filename>
+      <Linenumber>94</Linenumber>
+    </Resource>
+  </Task>
 </Tasks>

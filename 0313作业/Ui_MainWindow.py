@@ -1,0 +1,117 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'C:\GitHub\learn-surveying-software-designing\0313作业\MainWindow.ui'
+#
+# Created by: PyQt5 UI code generator 5.13.0
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(554, 577)
+        self.centralWidget = QtWidgets.QWidget(MainWindow)
+        self.centralWidget.setObjectName("centralWidget")
+        self.label = QtWidgets.QLabel(self.centralWidget)
+        self.label.setGeometry(QtCore.QRect(130, 10, 12, 12))
+        self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(self.centralWidget)
+        self.label_2.setGeometry(QtCore.QRect(220, 10, 12, 12))
+        self.label_2.setObjectName("label_2")
+        self.label_3 = QtWidgets.QLabel(self.centralWidget)
+        self.label_3.setGeometry(QtCore.QRect(70, 30, 20, 12))
+        self.label_3.setObjectName("label_3")
+        self.label_4 = QtWidgets.QLabel(self.centralWidget)
+        self.label_4.setGeometry(QtCore.QRect(70, 70, 20, 12))
+        self.label_4.setObjectName("label_4")
+        self.graphicsView = QtWidgets.QGraphicsView(self.centralWidget)
+        self.graphicsView.setGeometry(QtCore.QRect(30, 190, 501, 351))
+        self.graphicsView.setObjectName("graphicsView")
+        self.lineEdit_XA = QtWidgets.QLineEdit(self.centralWidget)
+        self.lineEdit_XA.setGeometry(QtCore.QRect(100, 30, 71, 20))
+        self.lineEdit_XA.setObjectName("lineEdit_XA")
+        self.lineEdit_XB = QtWidgets.QLineEdit(self.centralWidget)
+        self.lineEdit_XB.setGeometry(QtCore.QRect(100, 70, 71, 20))
+        self.lineEdit_XB.setObjectName("lineEdit_XB")
+        self.lineEdit_YA = QtWidgets.QLineEdit(self.centralWidget)
+        self.lineEdit_YA.setGeometry(QtCore.QRect(190, 30, 71, 20))
+        self.lineEdit_YA.setObjectName("lineEdit_YA")
+        self.lineEdit_YB = QtWidgets.QLineEdit(self.centralWidget)
+        self.lineEdit_YB.setGeometry(QtCore.QRect(190, 70, 71, 20))
+        self.lineEdit_YB.setObjectName("lineEdit_YB")
+        self.lineEdit_Sab = QtWidgets.QLineEdit(self.centralWidget)
+        self.lineEdit_Sab.setGeometry(QtCore.QRect(360, 30, 113, 20))
+        self.lineEdit_Sab.setObjectName("lineEdit_Sab")
+        self.label_5 = QtWidgets.QLabel(self.centralWidget)
+        self.label_5.setGeometry(QtCore.QRect(320, 30, 25, 12))
+        self.label_5.setObjectName("label_5")
+        self.label_6 = QtWidgets.QLabel(self.centralWidget)
+        self.label_6.setGeometry(QtCore.QRect(320, 60, 25, 12))
+        self.label_6.setObjectName("label_6")
+        self.lineEdit_tab = QtWidgets.QLineEdit(self.centralWidget)
+        self.lineEdit_tab.setGeometry(QtCore.QRect(360, 60, 113, 20))
+        self.lineEdit_tab.setObjectName("lineEdit_tab")
+        self.plainTextEdit = QtWidgets.QPlainTextEdit(self.centralWidget)
+        self.plainTextEdit.setGeometry(QtCore.QRect(30, 110, 501, 71))
+        self.plainTextEdit.setReadOnly(True)
+        self.plainTextEdit.setObjectName("plainTextEdit")
+        MainWindow.setCentralWidget(self.centralWidget)
+        self.menuBar = QtWidgets.QMenuBar(MainWindow)
+        self.menuBar.setGeometry(QtCore.QRect(0, 0, 554, 23))
+        self.menuBar.setObjectName("menuBar")
+        self.menu = QtWidgets.QMenu(self.menuBar)
+        self.menu.setObjectName("menu")
+        self.menu_2 = QtWidgets.QMenu(self.menuBar)
+        self.menu_2.setObjectName("menu_2")
+        MainWindow.setMenuBar(self.menuBar)
+        self.action_Open = QtWidgets.QAction(MainWindow)
+        self.action_Open.setObjectName("action_Open")
+        self.action_Save = QtWidgets.QAction(MainWindow)
+        self.action_Save.setObjectName("action_Save")
+        self.action_Close = QtWidgets.QAction(MainWindow)
+        self.action_Close.setObjectName("action_Close")
+        self.action_Calculate = QtWidgets.QAction(MainWindow)
+        self.action_Calculate.setObjectName("action_Calculate")
+        self.action_Quit = QtWidgets.QAction(MainWindow)
+        self.action_Quit.setObjectName("action_Quit")
+        self.menu.addAction(self.action_Open)
+        self.menu.addAction(self.action_Save)
+        self.menu.addAction(self.action_Close)
+        self.menu.addAction(self.action_Quit)
+        self.menu_2.addAction(self.action_Calculate)
+        self.menuBar.addAction(self.menu.menuAction())
+        self.menuBar.addAction(self.menu_2.menuAction())
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.label.setText(_translate("MainWindow", "X"))
+        self.label_2.setText(_translate("MainWindow", "Y"))
+        self.label_3.setText(_translate("MainWindow", "A"))
+        self.label_4.setText(_translate("MainWindow", "B"))
+        self.label_5.setText(_translate("MainWindow", "Sab"))
+        self.label_6.setText(_translate("MainWindow", "tab"))
+        self.menu.setTitle(_translate("MainWindow", "文件"))
+        self.menu_2.setTitle(_translate("MainWindow", "计算"))
+        self.action_Open.setText(_translate("MainWindow", "&Open"))
+        self.action_Save.setText(_translate("MainWindow", "&Save"))
+        self.action_Close.setText(_translate("MainWindow", "&Close"))
+        self.action_Calculate.setText(_translate("MainWindow", "&Calculate"))
+        self.action_Quit.setText(_translate("MainWindow", "&Quit"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())

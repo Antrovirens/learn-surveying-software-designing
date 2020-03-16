@@ -129,7 +129,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         
         #计算系数
         r01 = Nm * math.cos(Bm) / rho
-        t21 = math.cos(Bm) * Nm * (2 + 7*itam2 - 9 * itam2 * tm**2 * itam2**2)/(24 * rho**3 * Vm**4)
+        r21 = math.cos(Bm) * Nm * (2 + 7*itam2 - 9 * itam2 * tm**2 * itam2**2)/(24 * rho**3 * Vm**4)
         r03 = - Nm * math.cos(Bm)**3 * tm**2 / (24 * rho**3)
         S10 = Nm/(rho * Vm**2)
         S12 = Nm * math.cos(Bm)**2 * (2 + 3 * tm**2 + 2*itam2)/(24*rho**3*Vm**2)
@@ -156,6 +156,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         #判断Am的象限
         
         c = abs(ScosAm/SsinAm)
+        
         b = B2 - B1
         l = L2 - L1
         
@@ -182,6 +183,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         # S A12 A21
         
         S = SsinAm / math.sin(Am)
+        
         A12 = Am - 0.5 * dA       
         A21 = Am + 0.5 * dA + 180        
         if A21 > 360 :

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project 高斯投影坐标计算 -->
-<!-- Saved: 2019-12-18, 17:53:29 -->
-<!-- Copyright (C) 2019 ,  -->
+<!-- Saved: 2020-02-05, 18:21:10 -->
+<!-- Copyright (C) 2020 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
   <Hash>6c98d4139cc32acb6bc5cc99df6808131b01d25b</Hash>
@@ -13,11 +13,12 @@
   <Email></Email>
   <Eol index="0"/>
   <Sources>
-    <Source>Ui_Dialog.py</Source>
+    <Source>MainWindow.py</Source>
+    <Source>Ui_MainWindow.py</Source>
     <Source>__init__.py</Source>
   </Sources>
   <Forms>
-    <Form>Dialog.ui</Form>
+    <Form>MainWindow.ui</Form>
   </Forms>
   <Vcs>
     <VcsType>None</VcsType>

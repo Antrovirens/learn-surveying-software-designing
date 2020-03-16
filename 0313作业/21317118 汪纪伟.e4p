@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
-<!-- eric project file for project project1 -->
-<!-- Saved: 2020-02-03, 13:22:29 -->
-<!-- Copyright (C) 2020 21317118,  -->
+<!-- eric project file for project 21317118 汪纪伟 -->
+<!-- Saved: 2020-03-13, 16:58:53 -->
+<!-- Copyright (C) 2020 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
-  <Hash>5d5e21353a851eecb26886be89382a6860003cf9</Hash>
+  <Hash>a056fd387598d59f34d7117b4c0ecaa933b39d1f</Hash>
   <ProgLanguage mixed="0">Python3</ProgLanguage>
   <ProjectType>PyQt5</ProjectType>
-  <Version>0.1</Version>
-  <Author>21317118</Author>
+  <Version>alpha</Version>
+  <Author></Author>
   <Email></Email>
   <Eol index="0"/>
   <Sources>
