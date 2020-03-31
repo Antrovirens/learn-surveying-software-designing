@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project 21317118 汪纪伟 -->
+<!-- Saved: 2020-03-16, 15:26:40 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{c5b198a9-8ec0-4440-bfbd-ae5cdb372332}">
+    <Summary>TODO: 保存结果</Summary>
+    <Description></Description>
+    <Created>2020-03-16, 15:18:35</Created>
+    <Resource>
+      <Filename>MainWindow.py</Filename>
+      <Linenumber>128</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e4e2c743-f3f2-4fa9-95d2-640672f96d41}">
+    <Summary>TODO: 检查是否缺失条件， 进行计算， 绘制图形</Summary>
+    <Description></Description>
+    <Created>2020-03-16, 15:18:35</Created>
+    <Resource>
+      <Filename>MainWindow.py</Filename>
+      <Linenumber>146</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

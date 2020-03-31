@@ -1,0 +1,12 @@
+C:\Project C#\SoftwareDesign\期末考试\obj\Debug\期末考试.csprojAssemblyReference.cache
+C:\Project C#\SoftwareDesign\期末考试\obj\Debug\期末考试.Form1.resources
+C:\Project C#\SoftwareDesign\期末考试\obj\Debug\期末考试.Form2.resources
+C:\Project C#\SoftwareDesign\期末考试\obj\Debug\期末考试.Properties.Resources.resources
+C:\Project C#\SoftwareDesign\期末考试\obj\Debug\期末考试.csproj.GenerateResource.cache
+C:\Project C#\SoftwareDesign\期末考试\obj\Debug\期末考试.csproj.CoreCompileInputs.cache
+C:\Project C#\SoftwareDesign\期末考试\bin\Debug\期末考试.exe.config
+C:\Project C#\SoftwareDesign\期末考试\bin\Debug\期末考试.exe
+C:\Project C#\SoftwareDesign\期末考试\bin\Debug\期末考试.pdb
+C:\Project C#\SoftwareDesign\期末考试\obj\Debug\期末考试.exe
+C:\Project C#\SoftwareDesign\期末考试\obj\Debug\期末考试.pdb
+C:\Project C#\SoftwareDesign\期末考试\obj\Debug\期末考试.Form3.resources

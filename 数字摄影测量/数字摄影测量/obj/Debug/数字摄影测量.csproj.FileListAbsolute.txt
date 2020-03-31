@@ -1,0 +1,11 @@
+C:\GitHub\learn-surveying-software-designing\数字摄影测量\数字摄影测量\bin\Debug\数字摄影测量.exe.config
+C:\GitHub\learn-surveying-software-designing\数字摄影测量\数字摄影测量\bin\Debug\数字摄影测量.exe
+C:\GitHub\learn-surveying-software-designing\数字摄影测量\数字摄影测量\bin\Debug\数字摄影测量.pdb
+C:\GitHub\learn-surveying-software-designing\数字摄影测量\数字摄影测量\obj\Debug\数字摄影测量.csprojAssemblyReference.cache
+C:\GitHub\learn-surveying-software-designing\数字摄影测量\数字摄影测量\obj\Debug\数字摄影测量.Form1.resources
+C:\GitHub\learn-surveying-software-designing\数字摄影测量\数字摄影测量\obj\Debug\数字摄影测量.Form2.resources
+C:\GitHub\learn-surveying-software-designing\数字摄影测量\数字摄影测量\obj\Debug\数字摄影测量.Properties.Resources.resources
+C:\GitHub\learn-surveying-software-designing\数字摄影测量\数字摄影测量\obj\Debug\数字摄影测量.csproj.GenerateResource.cache
+C:\GitHub\learn-surveying-software-designing\数字摄影测量\数字摄影测量\obj\Debug\数字摄影测量.exe
+C:\GitHub\learn-surveying-software-designing\数字摄影测量\数字摄影测量\obj\Debug\数字摄影测量.pdb
+C:\GitHub\learn-surveying-software-designing\数字摄影测量\数字摄影测量\obj\Debug\数字摄影测量.csproj.CoreCompileInputs.cache
