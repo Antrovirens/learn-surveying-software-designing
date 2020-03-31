@@ -1,10 +1,10 @@
-﻿
+
 V = Bx-l
 
-x = (A<sub>T</sub>A)^-1^(A<sub>T</sub>l)
+x = (A<sup>T</sup>A)<sup>-1</sup> (A<sup>T</sup>l)
 
-m0 = sqrt(V<sub>T</sub>V/(2n - 6))
+m0 = sqrt(V<sup>T</sup>V/(2n - 6))
 
-Q<sup>xx</sup>= (A<sub>T</sub>A)<sub>-1</sub>
+Q<sub>xx</sub>= (A<sup>T</sup>A)<sup>-1</sup>
 
-mi = m0 * srqt(Q<sup>xx</sup><sub>ii</sub>)
+mi = m0 * srqt(Q<sub>xx</sub><sup>ii</sup>)
