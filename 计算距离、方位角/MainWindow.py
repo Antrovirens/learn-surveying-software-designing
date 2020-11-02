@@ -107,7 +107,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         dic = []
         for line in f.readlines():
             line=line.strip('\n') #去掉换行符\n
-            b=line.split(',') #将每一行以空格为分隔符转换成列表
+            b=line.split(',') #将每一行以,为分隔符转换成列表
             dic.append(b)
         
         

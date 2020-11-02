@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
 <!-- eric6 tasks file for project 高斯投影坐标计算 -->
-<!-- Saved: 2020-02-05, 18:21:10 -->
+<!-- Saved: 2020-08-31, 12:26:51 -->
 <Tasks version="6.0">
   <ProjectScanFilter></ProjectScanFilter>
-  <Task priority="1" completed="False" type="1" uid="{4a82c183-b339-4eb3-9537-58ad8d47ddac}">
+  <Task priority="1" completed="False" type="1" uid="{dfff036a-1e44-4033-b1c9-f422273444ad}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2020-02-05, 14:40:46</Created>
+    <Created>2020-08-31, 12:26:23</Created>
     <Resource>
       <Filename>MainWindow.py</Filename>
       <Linenumber>35</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{1dd198e6-0990-4935-a847-636f14c6a007}">
+  <Task priority="1" completed="False" type="1" uid="{4c842693-92e4-48a3-b105-76f3803b206d}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2020-02-05, 14:40:46</Created>
+    <Created>2020-08-31, 12:26:23</Created>
     <Resource>
       <Filename>MainWindow.py</Filename>
       <Linenumber>43</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{48a0d9d7-a072-4b07-99da-70f8353a5506}">
+  <Task priority="1" completed="False" type="1" uid="{ff4beb76-56db-4141-bb64-6eecaf537d22}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2020-02-05, 14:40:46</Created>
+    <Created>2020-08-31, 12:26:23</Created>
     <Resource>
       <Filename>MainWindow.py</Filename>
       <Linenumber>51</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{5a04373a-0c35-4007-9dbe-1573b8cd24b6}">
+  <Task priority="1" completed="False" type="1" uid="{ecc98184-898a-4868-a004-b69c344550c7}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2020-02-05, 14:40:46</Created>
+    <Created>2020-08-31, 12:26:23</Created>
     <Resource>
       <Filename>MainWindow.py</Filename>
       <Linenumber>59</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{316b903e-83e3-486d-bf6c-c617c86054bf}">
+  <Task priority="1" completed="False" type="1" uid="{6093ad51-a703-43c5-97d0-ec21413496de}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2020-02-05, 14:40:46</Created>
+    <Created>2020-08-31, 12:26:23</Created>
     <Resource>
       <Filename>MainWindow.py</Filename>
       <Linenumber>67</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{e32f7f59-8586-4ec5-a0ed-8cac5c30ca29}">
+  <Task priority="1" completed="False" type="1" uid="{bad1a3ae-ccd8-4d2d-b16b-e34f722ef7b1}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2020-02-05, 14:40:46</Created>
+    <Created>2020-08-31, 12:26:23</Created>
     <Resource>
       <Filename>MainWindow.py</Filename>
       <Linenumber>78</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{7e847b70-9bf2-46a1-860a-77fc405bb3c2}">
+  <Task priority="1" completed="False" type="1" uid="{16dc1a02-5b20-4a76-8c81-ab266e0a506d}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2020-02-05, 14:40:46</Created>
+    <Created>2020-08-31, 12:26:23</Created>
     <Resource>
       <Filename>MainWindow.py</Filename>
       <Linenumber>86</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{536a187d-0c31-473b-a52d-27c0f53e84f3}">
+  <Task priority="1" completed="False" type="1" uid="{96f37701-78d4-42c0-aa5f-d17f86485105}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2020-02-05, 14:40:46</Created>
+    <Created>2020-08-31, 12:26:23</Created>
     <Resource>
       <Filename>MainWindow.py</Filename>
       <Linenumber>94</Linenumber>

@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CImage.cs" />
+    <Compile Include="CImages.cs" />
     <Compile Include="CMat.cs" />
     <Compile Include="CPoint.cs" />
+    <Compile Include="CPoints.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

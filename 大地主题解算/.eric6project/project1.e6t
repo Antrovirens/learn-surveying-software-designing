@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
 <!-- eric6 tasks file for project project1 -->
-<!-- Saved: 2020-02-03, 13:22:29 -->
+<!-- Saved: 2020-08-31, 12:33:25 -->
 <Tasks version="6.0">
   <ProjectScanFilter></ProjectScanFilter>
-  <Task priority="1" completed="False" type="1" uid="{e3e09ac6-ec91-4e8d-b564-b1f77658f9a9}">
+  <Task priority="1" completed="False" type="1" uid="{2dd541e0-77e5-4ed8-8c77-e38a1ab10a9f}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2020-02-03, 13:20:50</Created>
+    <Created>2020-08-31, 12:20:30</Created>
     <Resource>
       <Filename>MainWindow.py</Filename>
       <Linenumber>46</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{0e1cf221-96a7-4bce-95fd-7f44d7cb6350}">
+  <Task priority="1" completed="False" type="1" uid="{95f8f792-dbe9-4a36-967f-2ad3a91f97d0}">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2020-02-03, 13:20:50</Created>
+    <Created>2020-08-31, 12:20:30</Created>
     <Resource>
       <Filename>MainWindow.py</Filename>
       <Linenumber>105</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="1" uid="{d9f77963-8de2-406c-bcb5-4af5e6006343}">
+  <Task priority="1" completed="False" type="1" uid="{97d49f49-ab19-492c-9bb6-14962dee07d5}">
     <Summary>TODO: 数据格式化</Summary>
     <Description></Description>
-    <Created>2020-02-03, 13:20:50</Created>
+    <Created>2020-08-31, 12:20:30</Created>
     <Resource>
       <Filename>MainWindow.py</Filename>
       <Linenumber>198</Linenumber>

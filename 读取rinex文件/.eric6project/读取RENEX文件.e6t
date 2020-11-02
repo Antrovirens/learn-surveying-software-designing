@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project 读取RENEX文件 -->
+<!-- Saved: 2020-04-01, 14:51:22 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{a0a68c0f-d935-4f18-925f-39a7d59f0190}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-04-01, 14:11:45</Created>
+    <Resource>
+      <Filename>MainWindow.py</Filename>
+      <Linenumber>89</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8776f635-b972-4d7a-ab48-e386badec391}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-04-01, 14:11:45</Created>
+    <Resource>
+      <Filename>MainWindow.py</Filename>
+      <Linenumber>97</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>
