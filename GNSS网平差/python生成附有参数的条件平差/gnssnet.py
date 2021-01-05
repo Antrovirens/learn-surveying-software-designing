@@ -91,9 +91,9 @@ class GNSSNet(object):
 
     def Net_baseline_match(self,baseline):
         for Baseline in self.BaselineSet:
-            a,b,c = Baseline.baseline_match(baseline)
+            a,towards,number = Baseline.baseline_match(baseline)
             if a:
-                return b,self.BaselineSet[c-1].baseline_inf()
+                return towards,self.BaselineSet[number-1].baseline_inf()
 
     def controlpoint_match(self,point_name):
         for controlpoint in self.ControlPointSet:

@@ -14,7 +14,7 @@ import pandas as pd
 import numpy as np
 import sys
 np.set_printoptions(threshold=sys.maxsize)
-from defgnssnet import *
+from gnssnet import *
 import math
 
 def Save2Excel(mats,name):
@@ -196,7 +196,7 @@ while  abs(V.max()) > 0.000001 and time < 100:
 print("time:",time,'\n')
 print(V_total)
 
-sigema02 = np.dot(np.dot(V0.T,P),V0)/39
+sigema02 = np.dot(np.dot(V_total.T,P),V_total)/39
 
 sigema0 = math.sqrt(sigema02)
 
