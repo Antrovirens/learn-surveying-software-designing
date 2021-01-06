@@ -144,7 +144,7 @@ str2 = "G07"
 baseline_name = [str1 , str2] 
 baseline_towards,baseline_inf = G.Net_baseline_match(baseline_name)
 _,controlpoint_inf_G10 = G.controlpoint_match(str1)
-_,controlpoint_inf_G07 = G.controlpoint_match(str1)
+_,controlpoint_inf_G07 = G.controlpoint_match(str2)
 
 A[r][3*baseline_inf[0] -3] = 1
 A[r+1][3*baseline_inf[0] -2] = 1
@@ -221,8 +221,8 @@ while  abs(V.max()) > 0.000001 and time < 100:
         
 
 print("time:",time,'\n')
-print(V_total)
-print(x_total)
+print(V_total,'\n')
+print(x_total,'\n')
 
 sigema02 = np.dot(np.dot(V_total.T,P),V_total)/r
 
