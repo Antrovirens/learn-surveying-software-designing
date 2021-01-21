@@ -27,7 +27,9 @@ class station(object):
             self.X = float(line[3])
             self.Y = float(line[4])
             self.Z = float(line[5])
-
+            self.N = float(line[6])
+            self.E = float(line[7])
+            self.H = float(line[8])
 
 
 #已经算过近似坐标了
@@ -179,4 +181,5 @@ class GNSSNet(object):
                 X0[num*3-2][0] = station.Y
                 X0[num*3-1][0] = station.Z
                 print(station.station_inf()[5] , station.station_inf()[6])
+
         return X0  

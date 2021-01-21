@@ -1,5 +1,6 @@
 '''
 间接平差
+已知G07-G11边长为定值
 main.py
 '''
 
@@ -12,7 +13,7 @@ import math
 
 def Save2Excel(mats,name):
         data = pd.DataFrame(mats)
-        writer = pd.ExcelWriter("C:\\Users\\sheld\\Desktop\\111\\"+ "间接平差的"  +name + ".xlsx")
+        writer = pd.ExcelWriter("C:\\Users\\sheld\\Desktop\\111\\附有限制条件的间接平差的"+ name + ".xlsx")
         data.to_excel(writer, "page_1", float_format = '%.6f')#浮点数，精确到6位小数
         writer.save()
         writer.close()
@@ -48,6 +49,10 @@ def init_GNSSNet(G):
 n = 63
 t = 24
 r = n - t
+s = 1
+u = t + s
+
+S = math.sqrt(366.6087**2 + (252.4815)**2 + 72.1291**2)
 
 global G
 G = GNSSNet()
@@ -57,19 +62,29 @@ P = np.zeros([n,n], dtype = float)
 L = np.zeros([n,1], dtype = float)
 l = np.zeros([n,1], dtype = float)
 
+
+
+
 '''
 L^ = BX^ + d
+Fai(X^) = 0
+
 l = L - (BX0 + d)
 V = Bx^ - l
-
 '''
-B =  np.zeros([n,t], dtype = float)
+B =  np.zeros([n,u], dtype = float)
 d = np.zeros([n,1], dtype = float)
 
-X0 = np.zeros([t,1], dtype = float)
-x = np.zeros([t,1], dtype = float)
+X0 = np.zeros([u,1], dtype = float)
+x = np.zeros([u,1], dtype = float)
 
 
+'''
+Cx^ + Wx = 0
+'''
+
+C =  np.zeros([s,u], dtype = float)
+Wx = np.zeros([s,1], dtype = float)
 
 #写入B,d矩阵
 for baseline in G.BaselineSet:
@@ -118,12 +133,35 @@ for baseline in G.BaselineSet:
 ##        print(d[3 * num - 2])
 ##        print(d[3 * num - 1])
 
-                
 
 #定权
 P = G.init_P(P)
 L = G.init_L(L)
 x0 = G.init_X0(X0)
+
+X0[3*8][0] = math.sqrt(366.6087**2 + (252.4815)**2 + 72.1291**2)
+
+#写入C、W矩阵 G01-G02
+
+G01_X = -2612808.8378000
+G01_Y = 4748993.2784000
+G01_Z = 3350430.6698000
+
+G02_X0 = -2613175.4394000
+G02_Y0 = 4748740.7892000
+G02_Z0 = 3350502.7893000
+
+S0 = math.sqrt(366.6087**2 + (252.4815)**2 + 72.1291**2)
+
+C[0][3] = 2* G02_X0
+C[0][4] = 2* G02_Y0
+C[0][5] = 2* G02_Z0
+
+C[0][24] = -2 * S0
+
+Wx[0][0] = -2*G01_X - 2*G01_Y -2*G01_Z
+
+
 
 P = np.matrix(P)
 L = np.matrix(L)
@@ -131,35 +169,56 @@ X0 = np.matrix(X0)
 d = np.matrix(d)
 B = np.matrix(B)
 
+C = np.matrix(C)
+Wx = np.matrix(Wx)
+
+#矩阵的秩
+print(np.linalg.matrix_rank(B, tol=None, hermitian=False))
+print(np.linalg.matrix_rank(Wx, tol=None, hermitian=False))
+
+
+print("C:\n",C)
+Save2Excel(C,"C")
+print("Wx:\n",Wx)
+
 Q = P.I
 
 
-print("X0:\n",X0)
-print("L:\n",L)
+##print("X0:\n",X0)
+##print("L:\n",L)
+##
+##print("d:\n",d)
 
-print("d:\n",d)
 print("B:\n",B)
-
+Save2Excel(B,"B")
 l = L - np.dot(B,X0) - d
-print("l:\n",l)
+##print("l:\n",l)
 
 
-#化成毫米单位
-l = np.matrix(np.dot(l, 1000))
+###化成毫米单位
+##l = np.matrix(np.dot(l, 1000))
 
 #Nbbx^ - W = 0
 Nbb = np.dot(np.dot(B.T, P), B)
+Save2Excel(Nbb,"Nbb")
+
+print("Nbb:\n",Nbb,Nbb.shape)
 W = np.dot(np.dot(B.T, P), l)
+
+Ncc = np.dot(np.dot(C, Nbb.I), C.T)
 
 
 #矩阵的秩
 print(np.linalg.matrix_rank(B, tol=None, hermitian=False))
-print(np.linalg.matrix_rank(l, tol=None, hermitian=False))
+print(np.linalg.matrix_rank(P, tol=None, hermitian=False))
 
 #x^
-x =  np.dot(Nbb.I,W)
+x =  np.dot((Nbb.I - np.dot(np.dot(np.dot(np.dot(Nbb.I, C.T ), Ncc.I ) , C ) ,  Nbb.I))  , W ) - np.dot( np.dot( np.dot( Nbb.I , C.T ) , Ncc.I ) , Wx )
 
 V = np.dot(B,x) - l
+
+
+
 
 print('x',x,'\n')
 
@@ -185,10 +244,12 @@ x_total = x
 ##
 ##
 
+L = L + V
+X0 = X0 + x
 
 
-L = L + V/1000
-X0 = X0 + x/1000
+##L = L + V/1000
+##X0 = X0 + x/1000
 
 print('L^',L)
 
@@ -213,5 +274,5 @@ Save2Excel(l,"l")
 Save2Excel(X0,"X^")
 Save2Excel(V_total,"V_total")
 Save2Excel(x_total,"x_total")
-Save2Excel(Nbb,"Nbb")
+
 

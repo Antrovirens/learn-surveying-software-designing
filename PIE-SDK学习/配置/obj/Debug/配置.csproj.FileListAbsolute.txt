@@ -1,0 +1,2 @@
+D:\大四寒假训练——戚浩平\第三天\配置\obj\Debug\配置.csprojAssemblyReference.cache
+D:\大四寒假训练——戚浩平\第三天\配置\obj\Debug\配置.csproj.CoreCompileInputs.cache

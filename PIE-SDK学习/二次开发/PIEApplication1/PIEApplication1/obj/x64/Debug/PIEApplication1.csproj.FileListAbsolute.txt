@@ -1,0 +1,8 @@
+D:\二次开发\PIEApplication1\PIEApplication1\obj\x64\Debug\PIEApplication1.csprojResolveAssemblyReference.cache
+D:\二次开发\PIEApplication1\PIEApplication1\obj\x64\Debug\PIEAppication.Frm_Main.resources
+D:\二次开发\PIEApplication1\PIEApplication1\obj\x64\Debug\PIEApplication1.Properties.Resources.resources
+D:\二次开发\PIEApplication1\PIEApplication1\obj\x64\Debug\PIEApplication1.csproj.GenerateResource.Cache
+D:\PIESDKInstall\Bin\PIEApplication1.exe
+D:\PIESDKInstall\Bin\PIEApplication1.pdb
+D:\二次开发\PIEApplication1\PIEApplication1\obj\x64\Debug\PIEApplication1.exe
+D:\二次开发\PIEApplication1\PIEApplication1\obj\x64\Debug\PIEApplication1.pdb

@@ -11,7 +11,7 @@ import math
 
 def Save2Excel(mats,name):
         data = pd.DataFrame(mats)
-        writer = pd.ExcelWriter("C:\\Users\\sheld\\Desktop\\result2\\"+ name + ".xlsx")
+        writer = pd.ExcelWriter("C:\\Users\\sheld\\Desktop\\yq\\2\\"+ name + ".xlsx")
         data.to_excel(writer, "page_1", float_format = '%.6f')
         writer.save()
         writer.close()

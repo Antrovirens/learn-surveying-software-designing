@@ -19,7 +19,7 @@ import math
 
 def Save2Excel(mats,name):
         data = pd.DataFrame(mats)
-        writer = pd.ExcelWriter("C:\\Users\\sheld\\Desktop\\python生成条件方程\\"+ name + ".xlsx")
+        writer = pd.ExcelWriter("C:\\Users\\sheld\\Desktop\\result\\"+ name + ".xlsx")
         data.to_excel(writer, "page_1", float_format = '%.6f')
         writer.save()
         writer.close()
@@ -201,7 +201,7 @@ sigema02 = np.dot(np.dot(V_total.T,P),V_total)/39
 sigema0 = math.sqrt(sigema02)
 
 print(math.sqrt(sigema02))
-
+Save2Excel(L,"L")
 Save2Excel(V_total,"V")
 Save2Excel(A,"A")
 Save2Excel(P,"P")
