@@ -19,7 +19,7 @@ import math
 
 def Save2Excel(mats,name):
         data = pd.DataFrame(mats)
-        writer = pd.ExcelWriter("C:\\Users\\sheld\\Desktop\\result\\"+ name + ".xlsx")
+        writer = pd.ExcelWriter("C:\\Users\\sheld\\Desktop\\111\\条件平差的"+ name + ".xlsx")
         data.to_excel(writer, "page_1", float_format = '%.6f')
         writer.save()
         writer.close()
@@ -64,14 +64,12 @@ global G
 G = GNSSNet()
 init_GNSSNet(G)
 
-
 ##a = ["G02", "g03"]
 ##print(a)
 ##a,b,c = G.BaselineSet[3].baseline_match(a)
 ##print(a,b,c )
 ##if a:
 ##    print(G.BaselineSet[c-1].baseline_inf())
-
  
 A = np.zeros([39,63], dtype = int)
 
@@ -181,7 +179,6 @@ V = np.dot(np.dot(Q,A.T),K)
 time =  1
 V_total = V
 
-
 while  abs(V.max()) > 0.000001 and time < 100:
         L = L + V/1000
         W0 = np.dot(A,L)+A0
@@ -191,12 +188,12 @@ while  abs(V.max()) > 0.000001 and time < 100:
         V_total = V_total + V
         time = time + 1
 
-        
+sigema02 = np.dot(np.dot(V_total.T,P),V_total)/39       
 
 print("time:",time,'\n')
 print(V_total)
 
-sigema02 = np.dot(np.dot(V_total.T,P),V_total)/39
+
 
 sigema0 = math.sqrt(sigema02)
 
